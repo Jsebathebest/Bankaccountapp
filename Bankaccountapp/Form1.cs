@@ -71,7 +71,7 @@ namespace Bankaccountapp
 
 
         }
-
+        // Se valida que funciona de forma correcta la funcionalidad de depositar dinero en la cuenta bancaria no requiere actualizacion
         private void Depositbtn_Click(object sender, EventArgs e)
         {
             if (AccountGrid.SelectedRows.Count == 1 && Amountbar.Value > 0)
