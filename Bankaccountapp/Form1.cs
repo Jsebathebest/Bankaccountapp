@@ -85,7 +85,7 @@ namespace Bankaccountapp
                 MessageBox.Show(message);
             }
         }
-
+        ///Validacion de retiro
         private void withdrawbtn_Click(object sender, EventArgs e)
         {
 
